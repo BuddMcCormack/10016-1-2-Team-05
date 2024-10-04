@@ -1,0 +1,1075 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.45f1 (a13dfa44d684) revision 10567162'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16242 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.45f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/dell/Documents/GitHub/10016-1-2-Team-05/10016-Team-05-Leapfrog
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+62394
+Successfully changed project path to: C:/Users/dell/Documents/GitHub/10016-1-2-Team-05/10016-Team-05-Leapfrog
+C:/Users/dell/Documents/GitHub/10016-1-2-Team-05/10016-Team-05-Leapfrog
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [29824]  Target information:
+
+Player connection [29824]  * "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 1417995238 [EditorId] 1417995238 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-NDP0RH1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [29824] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [29824] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+Refreshing native plugins compatible for Editor in 21.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.45f1 (a13dfa44d684)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/dell/Documents/GitHub/10016-1-2-Team-05/10016-Team-05-Leapfrog/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
+    Vendor:   Intel
+    VRAM:     8121 MB
+    Driver:   31.0.101.2127
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.45f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.025671 seconds.
+- Loaded All Assemblies, in  0.857 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.592 seconds
+Domain Reload Profiling: 1445ms
+	BeginReloadAssembly (263ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (149ms)
+	LoadAllAssembliesAndSetupDomain (337ms)
+		LoadAssemblies (261ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (331ms)
+			TypeCache.Refresh (327ms)
+				TypeCache.ScanAssembly (300ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (593ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (481ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (331ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.430 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.292 seconds
+Domain Reload Profiling: 2716ms
+	BeginReloadAssembly (376ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (75ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (859ms)
+		LoadAssemblies (706ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (382ms)
+			TypeCache.Refresh (334ms)
+				TypeCache.ScanAssembly (305ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1293ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (981ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (766ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 8.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3090 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (54.6 KB). Loaded Objects now: 3556.
+Memory consumption went from 117.9 MB to 117.9 MB.
+Total: 8.348000 ms (FindLiveObjects: 1.011700 ms CreateObjectMapping: 0.735000 ms MarkObjects: 6.439200 ms  DeleteObjects: 0.159900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2039484.954860 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/BrickWall_02.fbx
+  artifactKey: Guid(3984685e75edb4b48ad6e1c24d3e8254) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/BrickWall_02.fbx using Guid(3984685e75edb4b48ad6e1c24d3e8254) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '11654c60b0065784ec01460bac36879e') in 0.624481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/AutumnTree_05.fbx
+  artifactKey: Guid(6f20933e8e5e7db40bd1bc5d0fb22435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/AutumnTree_05.fbx using Guid(6f20933e8e5e7db40bd1bc5d0fb22435) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9724ca95e9bc37287bcd8a32cc870984') in 0.037194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/Brick_04.fbx
+  artifactKey: Guid(7859df571da82914e8863cb2d9a5d735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/Brick_04.fbx using Guid(7859df571da82914e8863cb2d9a5d735) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '10c7822ca25c2b66e447be09c19a4038') in 0.045971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/AutumnFallenTree_01.fbx
+  artifactKey: Guid(918bc1b69dc142e49a3a7b16b16d2c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/AutumnFallenTree_01.fbx using Guid(918bc1b69dc142e49a3a7b16b16d2c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4d8af7fc6992e7844ce488259146850b') in 0.049816 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/AutumnTree_04.fbx
+  artifactKey: Guid(6e7bb7b424fbff94eafd22ed03c84532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/AutumnTree_04.fbx using Guid(6e7bb7b424fbff94eafd22ed03c84532) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1eeffccd49f25146ca464432b0d146e9') in 0.051858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Grey3.mat
+  artifactKey: Guid(17c44fb3e5be9644586a0728a5f5a386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Grey3.mat using Guid(17c44fb3e5be9644586a0728a5f5a386) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'ffefff3fdea00fa13688b8cefc435f3e') in 0.739577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Orange.mat
+  artifactKey: Guid(652107f36a28e44479c0b827dee5852a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Orange.mat using Guid(652107f36a28e44479c0b827dee5852a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dd15a5889aa692a4217309071e2db964') in 0.047494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.002594 seconds.
+  path: Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Cyan.mat
+  artifactKey: Guid(cba66c276aed0874091de1c33eb3950d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Cyan.mat using Guid(cba66c276aed0874091de1c33eb3950d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '06bf18139a0a00804fadcb32c7176c33') in 0.025404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/Branch_02.fbx
+  artifactKey: Guid(71ed0fd8dad15c24395fad925e6641d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/Branch_02.fbx using Guid(71ed0fd8dad15c24395fad925e6641d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '71eb791dc06a79e6e95d9420f26546d9') in 0.067839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.001601 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/Rock_03.fbx
+  artifactKey: Guid(1f9b63f8346f9bb46bc0c7aa37745bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/Rock_03.fbx using Guid(1f9b63f8346f9bb46bc0c7aa37745bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd331f74cadd52c1592e54b558ab1947a') in 0.090895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/Bamboo_03.fbx
+  artifactKey: Guid(cc095985f12680444b4b69818a4a91e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/Bamboo_03.fbx using Guid(cc095985f12680444b4b69818a4a91e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '98eac5565d5cc1b2a387b3938c9db24c') in 0.043169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Grey2.mat
+  artifactKey: Guid(07dc66ae04b7f6a43b9674bf0fefb33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Grey2.mat using Guid(07dc66ae04b7f6a43b9674bf0fefb33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3abf3978d0b01ffaef3f7b2e0c16701a') in 0.032422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Blue2.mat
+  artifactKey: Guid(5e148de6cdf2d164aa3e3f90ce8c852c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Blue2.mat using Guid(5e148de6cdf2d164aa3e3f90ce8c852c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b9f2f439355d81ac985d8a5db903670c') in 0.021080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Blue1.mat
+  artifactKey: Guid(663834164c6a04740aaa1b778249ce7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Blue1.mat using Guid(663834164c6a04740aaa1b778249ce7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c8e28c063fc3ac5928cf763cd6add80f') in 0.023311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/Bush_02.fbx
+  artifactKey: Guid(e57c0629dceda7a4c8c9a71a685128ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/Bush_02.fbx using Guid(e57c0629dceda7a4c8c9a71a685128ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c3fa56091c5e11f1c75a85dffdf4b909') in 0.053229 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Red.mat
+  artifactKey: Guid(5a26de236ce89e94b963be8fa2b7ade6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Red.mat using Guid(5a26de236ce89e94b963be8fa2b7ade6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6069350db236861461e5784259c59e0b') in 0.019355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/FallenTree_01.fbx
+  artifactKey: Guid(87c244d1b77f3a74c899df0b5558f9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/FallenTree_01.fbx using Guid(87c244d1b77f3a74c899df0b5558f9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd291ee2a275d663addcdbf0e82baf1d6') in 0.033131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/Bamboo_01.fbx
+  artifactKey: Guid(6e9dfa520323b3e4d8d0b56da70999c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/Bamboo_01.fbx using Guid(6e9dfa520323b3e4d8d0b56da70999c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5f8f3e1949d7480d8781482138c743e3') in 0.046445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/Bush_01.fbx
+  artifactKey: Guid(4e50e8c9f6843b84fb98c8d59bd5cba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/Bush_01.fbx using Guid(4e50e8c9f6843b84fb98c8d59bd5cba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '795b970b3b54dbe81cfd2cb92e2a9e6e') in 0.033219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Grey4.mat
+  artifactKey: Guid(8d530ffe6c4968843806085897955b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Grey4.mat using Guid(8d530ffe6c4968843806085897955b9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4cedbfb511bee86d4a39e41b452b652a') in 0.023894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/AutumnTree_01.fbx
+  artifactKey: Guid(e936eb6477cc8304fba804320b7cbd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/AutumnTree_01.fbx using Guid(e936eb6477cc8304fba804320b7cbd5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '180aadfb770ccbac41bcbb68ce66985a') in 0.042185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/Bottle_01.fbx
+  artifactKey: Guid(29716c33db8845a4094f717916ecf786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/Bottle_01.fbx using Guid(29716c33db8845a4094f717916ecf786) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a9a97cd15a82f4ba1f26f21c59d9181f') in 0.052024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/Bamboos_01.fbx
+  artifactKey: Guid(08479b2979dcbeb4cb0b059e54eb222f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/Bamboos_01.fbx using Guid(08479b2979dcbeb4cb0b059e54eb222f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fd046ce90fad7bb88e12bee3c49a8d28') in 0.085324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Blue3.mat
+  artifactKey: Guid(b0b4de3bd6e976e4f8b3adc6e72377ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Blue3.mat using Guid(b0b4de3bd6e976e4f8b3adc6e72377ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3c1054854e5762654c2e94d53d250143') in 0.023332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/AutumnTree_02.fbx
+  artifactKey: Guid(d73e05718fbe1e74aa213734ba1d7a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/AutumnTree_02.fbx using Guid(d73e05718fbe1e74aa213734ba1d7a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5bee523f55343c60e0c1e39a43d56df4') in 0.036848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/LowpolyNatureBundle/Material/Ground.mat
+  artifactKey: Guid(7124448f68c574b439e242b37c26e4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Material/Ground.mat using Guid(7124448f68c574b439e242b37c26e4f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0a7feb57f10e6fe673d5099d82d03189') in 0.023403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Brown.mat
+  artifactKey: Guid(a54b7ad866d3a9b47bbf3b53baa0acc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/DemoScene/Gridbox Prototype Materials/Resources/Materials/Prototype Grid/Prototype_512x512_Brown.mat using Guid(a54b7ad866d3a9b47bbf3b53baa0acc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a3a7571ac9cb8da37ae0cd1e7b721512') in 0.035177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.746912 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/FallenTree_03.fbx
+  artifactKey: Guid(5240d78093880e04785443c22e4cbcfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/FallenTree_03.fbx using Guid(5240d78093880e04785443c22e4cbcfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5836fca62ab0837669a57c7026ea218e') in 0.028960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/Fence_04.fbx
+  artifactKey: Guid(53f480c1e006e1d4198bb0ce468af8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/Fence_04.fbx using Guid(53f480c1e006e1d4198bb0ce468af8fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '2f99aef65e9863ea3355b5c9991fbff4') in 0.034662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/FallenTree_04.fbx
+  artifactKey: Guid(3119a879dcc2a73499715d8ad8c6a0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/FallenTree_04.fbx using Guid(3119a879dcc2a73499715d8ad8c6a0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e1309ba4ce21e147c5837f921eabff91') in 0.059724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/LotusLeaf_01.fbx
+  artifactKey: Guid(ecacc512b4c06e748970b5df2ce51904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/LotusLeaf_01.fbx using Guid(ecacc512b4c06e748970b5df2ce51904) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6584e3273387b7d25923bc60dcb5c52d') in 0.039396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.929610 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/Mushroom_01.fbx
+  artifactKey: Guid(a951bf4ce50ceb14a9331c6cbb485623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/Mushroom_01.fbx using Guid(a951bf4ce50ceb14a9331c6cbb485623) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9498322feb035e6dd2c73430a991ea4e') in 0.028241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/Mushroom_07.fbx
+  artifactKey: Guid(25c8272a495732a4d94059c817a762c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/Mushroom_07.fbx using Guid(25c8272a495732a4d94059c817a762c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '704373e44c4c043d99d8c6081403df9d') in 0.025792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/Mushroom_08.fbx
+  artifactKey: Guid(db63211f9d87ad14ca182fd98958271d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/Mushroom_08.fbx using Guid(db63211f9d87ad14ca182fd98958271d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e0466d77c80d9667f29d45886df3ada7') in 0.044821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/Mushroom_06.fbx
+  artifactKey: Guid(59222095380270245807491b8bd22f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/Mushroom_06.fbx using Guid(59222095380270245807491b8bd22f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '54b18bbe85c3ed8f9440942f4be1680c') in 0.042104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/Mushroom_09.fbx
+  artifactKey: Guid(d1eb8e0d4609d0a4cb00a0946e7c963d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/Mushroom_09.fbx using Guid(d1eb8e0d4609d0a4cb00a0946e7c963d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'b122a9fe82a82118ae1f5885e35ad295') in 0.024454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/Mushroom_11.fbx
+  artifactKey: Guid(93df55b04d9364a4583a4ce6aabc68c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/Mushroom_11.fbx using Guid(93df55b04d9364a4583a4ce6aabc68c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4c62e3bea13662f4453e963c3417c91c') in 0.039495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/Mushroom_16.fbx
+  artifactKey: Guid(ba83b5e0862536f4ea00ab006c056ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/Mushroom_16.fbx using Guid(ba83b5e0862536f4ea00ab006c056ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '1d8fb1f50d3a474b442be9b1e58754bf') in 0.036434 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/Pot_01.fbx
+  artifactKey: Guid(13f698f5c8f4d4d4cb7d26e5e0c3f800) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/Pot_01.fbx using Guid(13f698f5c8f4d4d4cb7d26e5e0c3f800) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '60e4a99bc0963ba304d50f17950471ef') in 0.058924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/LowpolyNatureBundle/Mesh/Mushroom_02.fbx
+  artifactKey: Guid(95dfaa1df5456c24c9fbc731f4a3a9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Mesh/Mushroom_02.fbx using Guid(95dfaa1df5456c24c9fbc731f4a3a9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '3b02110e37365e39f73baeaf6235c9e2') in 0.053392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 1.738605 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/FallenTree_02.prefab
+  artifactKey: Guid(60fa16b786376ad49adeb26a68a6a9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/FallenTree_02.prefab using Guid(60fa16b786376ad49adeb26a68a6a9bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '38b2bff2a8e3fb49afac5dfe932de80f') in 0.014339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/GuideSigns_02.prefab
+  artifactKey: Guid(dea54ee0d33bdec41aaa1082bbfda4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/GuideSigns_02.prefab using Guid(dea54ee0d33bdec41aaa1082bbfda4c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '7c00ee119139afc6d5c5f99f93cb52a8') in 0.014664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/FallenTree_03.prefab
+  artifactKey: Guid(46bbc7e226c2baf40b24a18f3946961a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/FallenTree_03.prefab using Guid(46bbc7e226c2baf40b24a18f3946961a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '65e1b7df094806c34c653fbdf334a026') in 0.019311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Mushroom_05.prefab
+  artifactKey: Guid(b4bb0b2e54fe9a944b3076047ec8f71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Mushroom_05.prefab using Guid(b4bb0b2e54fe9a944b3076047ec8f71b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '03bb1f1f779a389ae78d29c18124e98e') in 0.042605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.prefab
+  artifactKey: Guid(6bacecc4f3df9584198879c73a6b6c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ModularFirstPersonController/FirstPersonController/FirstPersonController.prefab using Guid(6bacecc4f3df9584198879c73a6b6c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'd10dda98c16927e5ae9fdc6062d38938') in 0.038338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 36
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/LotusLeaf_02.prefab
+  artifactKey: Guid(645d683b72c8f9f4eb3dbb7c92e89a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/LotusLeaf_02.prefab using Guid(645d683b72c8f9f4eb3dbb7c92e89a82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4f518a89da30c92bf79b5dfcbd21501c') in 0.019119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Mushroom_08.prefab
+  artifactKey: Guid(cb939ed9182f20f44a391477d4f149a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Mushroom_08.prefab using Guid(cb939ed9182f20f44a391477d4f149a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'fd220d7e86f6b931c00350cb4ca25620') in 0.023207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/LotusLeaf_01.prefab
+  artifactKey: Guid(eb5e34adfe488ff4d9366d1d28cbe4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/LotusLeaf_01.prefab using Guid(eb5e34adfe488ff4d9366d1d28cbe4eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f63fcf23a483ec72d2c6bec236df70e4') in 0.036702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Fence_04.prefab
+  artifactKey: Guid(ec9e83b03af189f498e881a7645b2297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Fence_04.prefab using Guid(ec9e83b03af189f498e881a7645b2297) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f49b90a8deb58db0a5120b4697c4cfd2') in 0.035645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Mushroom_10.prefab
+  artifactKey: Guid(5df161c1b781928458974204b2f20f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Mushroom_10.prefab using Guid(5df161c1b781928458974204b2f20f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'baaeb03592a69000402875c6c81c9d41') in 0.025432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Mushroom_03.prefab
+  artifactKey: Guid(403a5055922ec0e4eb2f6ed427208efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Mushroom_03.prefab using Guid(403a5055922ec0e4eb2f6ed427208efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '5459ccf55154c868d3e568ffcae15a9f') in 0.034939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/FoodTrough_Full.prefab
+  artifactKey: Guid(48ff4b3255f60c246997f3938f030169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/FoodTrough_Full.prefab using Guid(48ff4b3255f60c246997f3938f030169) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '388fd9e8e50bf4dc69f04455afa58af4') in 0.021289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/GuideSigns_01.prefab
+  artifactKey: Guid(2e7099f98681c2f409314414c200251a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/GuideSigns_01.prefab using Guid(2e7099f98681c2f409314414c200251a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dcd2b605236095be2f5a3d5feffa5683') in 0.022217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Mushroom_09.prefab
+  artifactKey: Guid(20846d7d3f26da54abcaa8076b108cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Mushroom_09.prefab using Guid(20846d7d3f26da54abcaa8076b108cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f0b8c73bdcdd05825a9a2befe66e9c14') in 0.023569 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 2.816512 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Pot_03.prefab
+  artifactKey: Guid(7011085b75357e743ab97fa702775f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Pot_03.prefab using Guid(7011085b75357e743ab97fa702775f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'c7913d804b4a26a05fea98fd25177a1f') in 0.017601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Rock_02.prefab
+  artifactKey: Guid(f5a25ce826b191a488244faefa290f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Rock_02.prefab using Guid(f5a25ce826b191a488244faefa290f38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'cccdd01286ffc1904c19b60a5c711bfa') in 0.016483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/PottedPlants_01.prefab
+  artifactKey: Guid(f840a950009de0643a3e61ab6cbe6a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/PottedPlants_01.prefab using Guid(f840a950009de0643a3e61ab6cbe6a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '697aabf22358e18b65165b6ad08cd81f') in 0.027796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Rock_03.prefab
+  artifactKey: Guid(fd9e862afb15fd14ca05309c6790543f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Rock_03.prefab using Guid(fd9e862afb15fd14ca05309c6790543f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6f17e447deb364f21d2f7861fbbdbb1c') in 0.019436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Rock_04.prefab
+  artifactKey: Guid(2ef75b4e11b3ac34291fcb9eda291e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Rock_04.prefab using Guid(2ef75b4e11b3ac34291fcb9eda291e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '054940ef2281476b3f44a2258aa48250') in 0.031967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.024884 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/SpringTree_01.prefab
+  artifactKey: Guid(a9e8ec9d2ae5a9e46a3c2f168aef0d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/SpringTree_01.prefab using Guid(a9e8ec9d2ae5a9e46a3c2f168aef0d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f7a131c1014973f660d895617fc83029') in 0.023012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/SpringTree_06.prefab
+  artifactKey: Guid(2c393df2745c4b4459c4586dbc1d1f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/SpringTree_06.prefab using Guid(2c393df2745c4b4459c4586dbc1d1f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e37a7d95b92ae2e6b455f1f1ef6cb7d3') in 0.050362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/SpringTree_02.prefab
+  artifactKey: Guid(1628b9bb55d40c74c80ba77cf05120bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/SpringTree_02.prefab using Guid(1628b9bb55d40c74c80ba77cf05120bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a375c779973b0a1149789c1a3b4a1a68') in 0.019647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/SpringTree_07.prefab
+  artifactKey: Guid(9adf7af000156bc439918111686ccf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/SpringTree_07.prefab using Guid(9adf7af000156bc439918111686ccf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '19f048d9fd275a461682f154e3f7708f') in 0.021744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.180653 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Trunk_03.prefab
+  artifactKey: Guid(4932976417a24df4d8ef50d916d755be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Trunk_03.prefab using Guid(4932976417a24df4d8ef50d916d755be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f1849928676afaf0b1fedc2487dabf68') in 0.020403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/WinterFallenTree_02.prefab
+  artifactKey: Guid(81f856ae78de9d846b5c12e560523702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/WinterFallenTree_02.prefab using Guid(81f856ae78de9d846b5c12e560523702) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8642ab747267d0318e9b11d7444ef825') in 0.027983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/TrunkStack_01.prefab
+  artifactKey: Guid(81e152245eda4364f8a0bdac4999dfb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/TrunkStack_01.prefab using Guid(81e152245eda4364f8a0bdac4999dfb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0b962a46c932448b390db4e92cebb920') in 0.022920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/TrunkFence_03.prefab
+  artifactKey: Guid(d291d860c607d214580d4535300dc95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/TrunkFence_03.prefab using Guid(d291d860c607d214580d4535300dc95c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'e539b10050794a44d03ceb71bd7a6aa8') in 0.025431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.617401 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/WinterTree_02.prefab
+  artifactKey: Guid(7999f5a0fb0111c4b823d144a5e9b867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/WinterTree_02.prefab using Guid(7999f5a0fb0111c4b823d144a5e9b867) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'a3df5342ff2de42e9645ed313f39c188') in 0.013690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/WinterTree_04.prefab
+  artifactKey: Guid(7f368ba45b644e74cb86a0a7b75270c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/WinterTree_04.prefab using Guid(7f368ba45b644e74cb86a0a7b75270c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '9da8d90818520f95e601c523d88ed222') in 0.018986 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/WinterTree_05.prefab
+  artifactKey: Guid(764031d5685bffa4da74aaa25a3adfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/WinterTree_05.prefab using Guid(764031d5685bffa4da74aaa25a3adfd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6a47d9b4fd941a700df0c89046e296cf') in 0.026176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/WoodenFence_03.prefab
+  artifactKey: Guid(ac803e9f881a2584ba668e427bbead84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/WoodenFence_03.prefab using Guid(ac803e9f881a2584ba668e427bbead84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'f54dde1a75a2857442a9922dd2451d65') in 0.023123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/WoodenFence_02.prefab
+  artifactKey: Guid(d0a7e34fd2aea2c41a6dce04ef3e75c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/WoodenFence_02.prefab using Guid(d0a7e34fd2aea2c41a6dce04ef3e75c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '432700a78ac14fcf61be9fba1a4f93fb') in 0.017896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.038902 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/WoodenTable_01.prefab
+  artifactKey: Guid(b23cf09e0734f64448c6efb3d36a6459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/WoodenTable_01.prefab using Guid(b23cf09e0734f64448c6efb3d36a6459) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '6902309eda3fd62a954b736e93626a91') in 0.021432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/WoodenTower_01.prefab
+  artifactKey: Guid(c6f85d788749cba488b395ada73ab843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/WoodenTower_01.prefab using Guid(c6f85d788749cba488b395ada73ab843) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '4bae89d8f9819a3058aba839597a9c51') in 0.019056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 3.158731 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Brick_03.prefab
+  artifactKey: Guid(ce40ca79fda37e3429ebeab6063360c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Brick_03.prefab using Guid(ce40ca79fda37e3429ebeab6063360c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '82c76fe666febc09979570f5c6fd452b') in 0.021920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Bush_03.prefab
+  artifactKey: Guid(becab8771115bdd4b8cbc0ab5b2f4e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Bush_03.prefab using Guid(becab8771115bdd4b8cbc0ab5b2f4e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '57a777d20778c64cd6d64c90c40aa919') in 0.031309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Bush_04.prefab
+  artifactKey: Guid(22f96f2b0b3da504db2c9c78a32f68ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Bush_04.prefab using Guid(22f96f2b0b3da504db2c9c78a32f68ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '978f27a8aa274b449bdff515d3bcc807') in 0.029000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/BrickWall_02.prefab
+  artifactKey: Guid(17c46f4ea9c350c42aad0d4f5417e601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/BrickWall_02.prefab using Guid(17c46f4ea9c350c42aad0d4f5417e601) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '995be2c86d56843bcf17af66877efb96') in 0.027376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.029204 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Bamboo_03.prefab
+  artifactKey: Guid(a8a2e88e62971994fa9fcf4aced222e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Bamboo_03.prefab using Guid(a8a2e88e62971994fa9fcf4aced222e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '0208aae64d7fad24c79c45580dcb4de5') in 0.018873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Branch_02.prefab
+  artifactKey: Guid(b3499e7c3769cde44bf8ec2f17ac3d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Branch_02.prefab using Guid(b3499e7c3769cde44bf8ec2f17ac3d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'dbe44e379887fa29b7674022adfa4f7a') in 0.031669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Bamboos_01.prefab
+  artifactKey: Guid(6b8d6d85ed2967b41b7c103559f1d1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Bamboos_01.prefab using Guid(6b8d6d85ed2967b41b7c103559f1d1fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '35f5c6697135033fc22204fe2daf3f2c') in 0.030821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/Branch_01.prefab
+  artifactKey: Guid(29c55d609eae49d45b849dbaab215e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/Branch_01.prefab using Guid(29c55d609eae49d45b849dbaab215e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: 'badcbd088147bfad816b9b652b4a9ffd') in 0.033573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 60.853938 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/AutumnFallenTree_02.prefab
+  artifactKey: Guid(826c71ed5bfbe5844b7a9d74d59820e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/AutumnFallenTree_02.prefab using Guid(826c71ed5bfbe5844b7a9d74d59820e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '08cd456440e82609c523bc8bc8344975') in 0.018000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/AutumnTree_02.prefab
+  artifactKey: Guid(150882436c9041546938c2d44ac9acd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/AutumnTree_02.prefab using Guid(150882436c9041546938c2d44ac9acd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '668d3083a3206cce273849452e97a6bb') in 0.018039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/AutumnTree_04.prefab
+  artifactKey: Guid(45666775a8e15c94dbddf6b9588f0555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/AutumnTree_04.prefab using Guid(45666775a8e15c94dbddf6b9588f0555) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '8ed021a7839fb04e2830689064767d48') in 0.031880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/LowpolyNatureBundle/Prefab/AutumnTree_05.prefab
+  artifactKey: Guid(04597ce0aacfb9346b1811ef6fb2ea0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LowpolyNatureBundle/Prefab/AutumnTree_05.prefab using Guid(04597ce0aacfb9346b1811ef6fb2ea0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 8 workers.
+ -> (artifact id: '03544054c7bb420340de0df273e8a1ed') in 0.023273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
