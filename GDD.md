@@ -27,7 +27,7 @@ October 11, 2024
    The environment may contain hazards which will reset the player upon collision ( water, spikes, lava, fall damage )
 
 5. **Player Controls**     
-   The player will use (insert inputs here) to control the character.
+   The player will use ( W,A,S,D ) to control airborne direction, ( Mouse ) to look around and ( Spacebar ) to leap.
 
 6. **Objective Statement**  
    We aim to test whether players enjoy overcoming the challenge of restricted movement while playing from the perspecive of a small frog.
@@ -39,4 +39,6 @@ October 11, 2024
    [Modular First Person Controller - JeCase](https://assetstore.unity.com/packages/3d/characters/modular-first-person-controller-189884)
    [Poly Halloween - Polyperfect](https://assetstore.unity.com/packages/3d/props/poly-halloween-236625)
    [Low Poly Atmospheric Locations Pack - Palmov Island](https://assetstore.unity.com/packages/3d/environments/landscapes/low-poly-atmospheric-locations-pack-278928)
-   [Skybox Series Free - Avionx](https://assetstore.unity.com/packages/2d/textures-materials/sky/skybox-series-free-103633)
+   [Kool Kats - Kevin MacLeod](https://www.youtube.com/watch?v=ONKim0eH5Cg)
+
+
