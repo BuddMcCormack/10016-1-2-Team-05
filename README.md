@@ -1,13 +1,21 @@
-# 10016-1-2-Team-05
+# Leapfrog Prototype - TEAM 5
 
-Leapfrog Prototype
+## Overview
+Leapfrog is an engaging platformer where players control a dynamic frog, navigating through a vibrant environment to reach the level's end goal—a small horse situated at the top of the map. Players will rely heavily on precise jumping mechanics to traverse obstacles and explore the game's colorful landscape. This prototype showcases the foundational gameplay mechanics and provides a glimpse into the full potential of the game.
 
-Leapfrog is a game where you take control of a frog and attempt to reach the end of the level by jumping around the environment.  You as the player must navigate the environment with the might of you jump alone.  This version has only a prototype of the full intent for the controls, making it possible to use an unintentional range of movement.   
+## Objective
+Your mission is to guide the frog safely to the goal while overcoming environmental challenges and leveraging the jumping mechanics for creative movement.
 
-Our stand-in goal point is a small horse which sits at the top of the map
+## Controls
+- **Motion:** W, A, S, D (Enables movement, allowing for exploratory navigation within the environment)
+- **Jumping:** Spacebar (The core mechanic of the game, essential for traversing gaps and avoiding hazards)
+- **View Control:** Mouse Movement (Allows players to look around and assess their surroundings for better navigation)
+- **Zoom:** Mouse2 (Right-click to zoom in for a closer view of the environment and identify potential routes or obstacles)
 
-**The controls for the game are as follows :**
-Motion [ W,A,S,D ] ( Unintentional )
-Jumping [ Spacebar ] ( The mechanic the game must rely on to be successful )
-View Control [ Mouse Movement ] ( Looking around )
-Zoom [ Mouse2 ] ( Right click )
+## Gameplay Features
+- **Dynamic Jumping Mechanic:** Players can execute various jump types, including short hops, long jumps, and timed leaps, to navigate different terrains.
+- **Interactive Environment:** The level is designed with obstacles, platforms, and collectibles that encourage exploration and experimentation with jumping techniques.
+- **Prototype Experience:** This version serves as a foundational prototype, allowing for feedback and iterations to enhance the final game.
+
+## Next Steps
+Continue refining the jumping mechanics, enhance environmental interactions, and incorporate player feedback to develop a polished version of Leapfrog that offers a rich and enjoyable gaming experience.
